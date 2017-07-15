@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>ATM errors</title>
+  </head>
+
+  <body>
+    <h2>kindly check the last update of ATMs errors :</h2>
+        {% for i in errorsss %}
+	{% if i.f_date == "" %}
+    <li style="text-align: start;">ATM {{i.atm_id}} has error {{i.e_type}} at {{i.e_date}} {{i.e_time}}. </li>
+	{% else %}
+    <li style="
+    text-align: end;">ATM {{i.atm_id}} has error {{i.e_type}}  fixed at {{i.f_date}} {{i.f_time}}. </li> 
+	{% endif %}
+        {% endfor %}	
+
+  </body>
+</html>
+
+
+
+

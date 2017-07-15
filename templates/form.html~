@@ -1,0 +1,11 @@
+<form
+ style="
+    text-align: center;
+    margin-top: 200px;
+">
+
+	<h1> Please insert the password </h2>
+	<input type="password" name="password" value={{password}}>
+	<br>
+	<input type="submit">
+</form>

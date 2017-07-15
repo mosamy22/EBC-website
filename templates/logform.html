@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>ATM form</title>
+    <style type="text/css">
+      .label {text-align: right}
+      .error {color: red}
+    </style>
+
+  </head>
+
+  <body>
+    <h2>Add ATM error : </h2>
+    <form method="post">
+      <table>
+        <tr>
+          <td class="label">
+            ATM ID
+          </td>
+          <td>
+            <input type="text" name="atm_id" value="{{atm_id}}">
+          </td>
+          <td class="error">
+            {{errorid}}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">
+            Type of error
+          </td>
+          <td>
+            <input type="text" name="e_type" value="{{e_type}}">
+          </td>
+  	  
+        </tr>
+
+        <tr>
+          <td class="label">
+            Error date
+          </td>
+          <td>
+            <input type="text" name="e_date" value="{{e_date}}">
+          </td>
+
+        </tr>
+
+        <tr>
+          <td class="label">
+            Error time
+          </td>
+          <td>
+            <input type="text" name="e_time" value="{{e_time}}">
+          </td>
+
+        </tr>
+          <td class="label">
+            Fixing date
+          </td>
+          <td>
+            <input type="text" name="f_date" value="{{f_date}}">
+          </td>
+
+        </tr>
+
+        <tr>
+          <td class="label">
+            Fixing time
+          </td>
+          <td>
+            <input type="text" name="f_time" value="{{f_time}}">
+          </td>
+  
+        </tr>
+      </table>
+
+      <button>Add</button>
+    </form>
+  </body>
+
+</html>

@@ -1,0 +1,23 @@
+<style type="text/css">
+   .error {color: red}
+</style>
+<a href="adminsignin.html">go to admin page</a>
+
+<form method = "post"
+ style="
+    text-align: center;
+    margin-top: 200px;
+">
+
+	<h1> Please insert the password </h2>
+	<input type="password" name="password" value="{{password}}">
+	<br>
+	<input type="submit">
+
+        <td class="error">
+          <div style="color:red">{{error_password}}</div>  
+        </td>
+
+</form> 
+
+
