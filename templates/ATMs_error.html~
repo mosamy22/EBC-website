@@ -6,8 +6,12 @@
   </head>
 
   <body>
+	 <div>
+            <img src= "ebclogo.jpg">
+         </div>
+
     <h2>kindly check the last update of ATMs errors :</h2>
-        {% for i in errorss %}
+        {% for i in errorsss %}
 	{% if i.f_date == "" %}
     <li style="text-align: start;">ATM {{i.atm_id}} has error {{i.e_type}} at {{i.e_date}} {{i.e_time}}. </li>
 	{% else %}

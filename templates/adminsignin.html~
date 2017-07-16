@@ -6,14 +6,17 @@
     <style type="text/css">
       .error {color: red}
     </style>
-
-	<h1> Please insert the password </h2>
+	 <div>
+            <img src= "ebclogo.jpg" style ="width: 150px;">
+         </div>
+<hr>
+	<h1> Please insert the helpdesk password </h2>
 	<input type="password" name="password" value="{{password}}">
 	<br>
 	<input type="submit">
 
         <td class="error">
-            {{error_password}}
+		<div style="color:red">{{error_password}}</div>  
         </td>
 </form> 
 

@@ -1,6 +1,9 @@
 <style type="text/css">
    .error {color: red}
 </style>
+	 <div>
+            <img src= "ebclogo.jpg" style ="width: 150px;">
+         </div>
 <a href="adminsignin.html">go to admin page</a>
 
 <form method = "post"
@@ -15,8 +18,9 @@
 	<input type="submit">
 
         <td class="error">
-            {{error_password}}
+          <div style="color:red">{{error_password}}</div>  
         </td>
+
 </form> 
 
 

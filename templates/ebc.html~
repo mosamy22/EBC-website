@@ -76,7 +76,7 @@
            $("#owl-demo").owlCarousel({		
            	navigation : true,
            	slideSpeed : 300,
-           	paginationSpeed : 300,
+           	paginationSpeed : 400,
            	autoPlay : true,
            	singleItem:true
            });

@@ -11,11 +11,6 @@
   </head>
 
   <body>
-	 <div>
-            <img src= "ebclogo.jpg" style ="width: 150px;">
-         </div>
-<hr>
-
     <h2>Add ATM error : </h2>
     <form method="post">
       <table>
